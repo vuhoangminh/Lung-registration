@@ -11,15 +11,13 @@ In this project, we are provided four cases including intensity volumes (inhale 
 ## Dataset
 We are given four cases. Each case includes: 
 
-\begin{itemize}[noitemsep,nolistsep]
-	\item CaseID\_300\_iBH\_xyz\_r1.txt
-	\item CaseID\_300\_eBH\_xyz\_r1.txt
-	\item CaseID\_iBHCT.img
-	\item CaseID\_eBHCT.img
-\end{itemize}
+1. CaseID_300_iBH_xyz_r1.txt
+2. CaseID_300_eBH_xyz_r1.txt
+3. CaseID_iBHCT.img
+4. CaseID_eBHCT.img
 
-The CaseID\_300\_iBH\_xyz\_r1.txt and CaseID\_300\_eBH\_xyz\_r1.txt text files contain a list of 300 landmark locations of superior/inferior (SI) coordinate locations corresponding to
+The CaseID_300_iBH_xyz_r1.txt and CaseID_300_eBH_xyz_r1.txt text files contain a list of 300 landmark locations of superior/inferior (SI) coordinate locations corresponding to
 the respective iBHCT and eBHCT component phase images from a 4DCT set.  The iBHCT label represents the maximum inhale phase of the 4DCT, while the eBHCT label corresponds to the maximum exhale phase.
 
-In the challenge, we will be given     CaseID\_300\_eBH\_xyz\_r1.txt, CaseID\_iBHCT.img and CaseID\_eBHCT.img. Our task is to predict 
-CaseID\_300\_iBH\_xyz\_r1.txt. 
+In the challenge, we will be given CaseID_300_eBH_xyz_r1.txt, CaseID_iBHCT.img and CaseID_eBHCT.img. Our task is to predict 
+CaseID_300_iBH_xyz_r1.txt. 
